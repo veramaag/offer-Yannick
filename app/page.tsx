@@ -111,8 +111,7 @@ export default function Home() {
             <div className="space-y-6">
               <div className="bg-[#00095B]/[0.03] rounded-2xl p-8 border border-[#00095B]/5">
                 <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  In every conversation we had, you convinced us across the board. You bring a rare combination: deep knowledge of and genuine enthusiasm for the regulatory landscape, paired with the hands-on experience at the IHK that most candidates simply don&apos;t have. You know the German Mittelstand, because you&apos;ve worked with them directly, including with companies who are already our{" "}
-                  <strong className="text-[#00095B]">customers</strong>.
+                  In every conversation we had, you convinced us across the board. You bring a rare combination: deep knowledge of and genuine enthusiasm for the regulatory landscape, paired with the hands-on experience that you collected at IHK. You know the German Mittelstand, because you&apos;ve worked with them directly.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed mb-4">
                   What makes you stand out is your drive to build something new. You don&apos;t see complex, repetitive regulatory work as something to endure. You see it as an opportunity to systematize, automate, and scale. Your openness to working with modern tools, including AI, is exactly the mindset we need to take this function to the next level.
