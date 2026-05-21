@@ -44,7 +44,7 @@ export default function Home() {
         "Own interactions with German energy authorities and regulatory bodies. Ensure compliance, track submissions, and manage the relationships that create real financial impact for our customers.",
     },
     {
-      title: "Manage the PPP and partner network",
+      title: "Manage ecoplanet's partner network (PPP)",
       content:
         "Build and develop ecoplanet's network of PPP partners and independent energy consultants. Structure relationships that create positive effects on both sides: partners can deliver more value to their clients, and ecoplanet gains reach, credibility, and commercial momentum across the market.",
     },
