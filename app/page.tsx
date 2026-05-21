@@ -247,7 +247,7 @@ export default function Home() {
               {
                 icon: MessageCircle,
                 title: "Manage the partner network",
-                text: "Build and leverage ecoplanet's network of PPP partners and energy consultants to create mutual value, expanding our reach while helping partners deliver better outcomes for their customers.",
+                text: "Own the relationships with ecoplanet's PPP partner network. Keep the exchange active, ensure partners get what they need, and make sure the collaboration creates real value on both sides.",
               },
               {
                 icon: Wrench,
