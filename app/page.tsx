@@ -14,6 +14,7 @@ import {
   Rocket,
   Shield,
   Gift,
+  Star,
   Calendar,
   ChevronDown,
   Play,
@@ -335,21 +336,28 @@ export default function Home() {
           {/* Total comp */}
           <div className="max-w-3xl mx-auto mb-10">
             <div className="bg-gradient-to-br from-[#00095B] to-[#1A2FEE] rounded-2xl p-8 md:p-10 text-white text-center">
-              <p className="text-sm text-white/50 uppercase tracking-wider mb-2">Base salary (year 1)</p>
+              <p className="text-sm text-white/50 uppercase tracking-wider mb-2">Total compensation (year 1)</p>
               <p className="text-5xl md:text-7xl font-bold mb-2">
-                €78<span className="text-3xl md:text-4xl text-white/60">,000</span>
+                €91<span className="text-3xl md:text-4xl text-white/60">,000</span>
               </p>
-              <p className="text-white/50 text-sm">Variable + VSOP to be confirmed</p>
+              <p className="text-white/50 text-sm">base + VSOP value</p>
             </div>
           </div>
           {/* Comp breakdown */}
-          <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+          <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             <div className="bg-white rounded-2xl p-8 border border-gray-200 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-24 h-24 rounded-full -translate-y-1/2 translate-x-1/2 bg-[#E2EC2B]/10" />
               <Euro className="w-8 h-8 text-[#00095B] mb-4" aria-hidden="true" />
               <p className="text-sm text-gray-400 uppercase tracking-wider mb-1">Base salary</p>
               <p className="text-3xl font-bold text-[#00095B]">€78,000</p>
               <p className="text-gray-500 text-sm mt-2">Annual gross, paid monthly</p>
+            </div>
+            <div className="bg-white rounded-2xl p-8 border border-gray-200 relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-24 h-24 rounded-full -translate-y-1/2 translate-x-1/2 bg-[#7582F6]/10" />
+              <Star className="w-8 h-8 text-[#00095B] mb-4" aria-hidden="true" />
+              <p className="text-sm text-gray-400 uppercase tracking-wider mb-1">VSOP</p>
+              <p className="text-3xl font-bold text-[#00095B]">€13,000</p>
+              <p className="text-gray-500 text-sm mt-2">Virtual shares worth €13,000. You grow with the company.</p>
             </div>
             <div className="bg-white rounded-2xl p-8 border border-gray-200 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-24 h-24 rounded-full -translate-y-1/2 translate-x-1/2 bg-[#E2EC2B]/10" />
